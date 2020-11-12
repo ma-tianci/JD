@@ -16,7 +16,7 @@ $('.submit').click(function() {
                 localStorage.setItem("u-id", res.data.id);
                 localStorage.setItem("u-token", res.data.token)
                 alert("登录成功")
-                location.href = "gouwuche.html"
+                location.href = "../index.html"
             } else {
                 alert(res.msg)
             }

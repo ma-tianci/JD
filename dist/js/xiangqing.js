@@ -26,6 +26,7 @@
      zhi.value++;
  }
  btn.onclick = function() {
+     alert("加入购物车成功");
      $.ajax({
          type: "Get",
          url: "http://jx.xuzhixiang.top/ap/api/add-product.php",
@@ -35,5 +36,6 @@
              pnum: $("#zhi").val()
          }
      })
+
      location.href = "gouwuche.html";
  }

@@ -129,6 +129,12 @@ a {
             &:nth-of-type(5) {
                 margin-left: 55px;
             }
+            &:nth-of-type(6) {
+                a {
+                    margin-left: 30px;
+                    color: brown;
+                }
+            }
         }
     }
 }
