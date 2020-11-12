@@ -1,0 +1,172 @@
+/* 公共样式 */
+
+body,
+ul,
+dl,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+fieldset,
+legend,
+header,
+footer,
+nav,
+menu,
+figure,
+figcaption,
+hgroup {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+input,
+a {
+    outline: none;
+}
+
+
+/* 上面的样式重置-不能动 */
+
+.biaoti,
+.zhuce,
+.zc_bottom {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.biaoti_wrap {
+    border-bottom: 5px solid #f2f2f2;
+    .biaoti {
+        height: 100px;
+        background-color: #fff;
+        #logo {
+            width: 142px;
+            height: 44px;
+            overflow: hidden;
+            margin-top: 24px;
+            float: left;
+        }
+        p {
+            margin-top: 35px;
+            font-size: 24px;
+            margin-left: 18px;
+            float: left;
+        }
+        .dl {
+            float: right;
+            margin-top: 54px;
+            font-size: 16px;
+            color: #999;
+            a {
+                color: #ee2222;
+            }
+        }
+    }
+}
+
+// 注册页面
+.zhuce_wrap {
+    .zhuce {
+        height: 400px;
+        background-color: #fff;
+        border-bottom: 1px solid #e6e6e6;
+        .kuang {
+            margin: 100px auto 0;
+            width: 550px;
+            .xiao {
+                height: 88px;
+                line-height: 88px;
+                span {
+                    float: right;
+                    color: #666;
+                }
+                input {
+                    margin-top: 16px;
+                    width: 396px;
+                    height: 50px;
+                    font-size: 13px;
+                    color: #999;
+                    border: 1px splid #ddd;
+                    float: right;
+                }
+            }
+            button {
+                width: 396px;
+                height: 50px;
+                margin: 36px 0 0 80px;
+                background-color: #e2231a;
+                color: #fff;
+                font-size: 16px;
+                border: none;
+            }
+        }
+    }
+}
+
+// 底部
+.zc_bottom_wrap {
+    .zc_bottom {
+        ul {
+            margin: 20px 0 0 100px;
+            width: 100%;
+            overflow: hidden;
+            li {
+                font-size: 12px;
+                float: left;
+                margin: 0 10px;
+            }
+            .shu {
+                margin-top: 3px;
+                width: 1px;
+                height: 12px;
+                background-color: #ccc;
+            }
+        }
+        p {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+}

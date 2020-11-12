@@ -1,0 +1,225 @@
+/* 公共样式 */
+
+body,
+ul,
+dl,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+fieldset,
+legend,
+header,
+footer,
+nav,
+menu,
+figure,
+figcaption,
+hgroup {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+input,
+a {
+    outline: none;
+}
+
+
+/* 上面的样式重置-不能动 */
+
+.biaoti,
+.denglu,
+.dl_bottom {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.biaoti_wrap {
+    border-bottom: 5px solid #f2f2f2;
+    .biaoti {
+        height: 100px;
+        background-color: #fff;
+        #logo {
+            width: 142px;
+            height: 44px;
+            overflow: hidden;
+            margin-top: 24px;
+            float: left;
+        }
+        p {
+            margin-top: 35px;
+            font-size: 24px;
+            margin-left: 18px;
+            float: left;
+        }
+        .dl {
+            float: right;
+            margin-top: 54px;
+            font-size: 12px;
+            color: #999;
+            a {
+                color: #999;
+            }
+        }
+    }
+}
+
+// 注册页面
+.dl_wrap {
+    background-color: #e40001;
+    .denglu {
+        height: 475px;
+        background-image: url(../images/denglu.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-bottom: 1px solid #e6e6e6;
+        overflow: hidden;
+        position: relative;
+        .kuang {
+            position: absolute;
+            right: 0;
+            margin: 100px auto 0;
+            width: 350px;
+            height: 305px;
+            border: 1px solid black;
+            background-color: #fff;
+            .xiao {
+                margin-left: 20px;
+                width: 310px;
+                border: 1px solid #ddd;
+                overflow: hidden;
+                margin-top: 10px;
+                margin-top: 32px;
+                height: 35px;
+                p {
+                    width: 38px;
+                    height: 38px;
+                    background-image: url(../images/pwd-icons-new.png);
+                    float: left;
+                }
+                input {
+                    float: left;
+                    width: 272px;
+                    height: 38px;
+                    font-size: 14px;
+                    color: #999;
+                    border: none;
+                    float: right;
+                    padding: 0;
+                }
+                &:nth-of-type(2) {
+                    p {
+                        background: url(../images/pwd-icons-new.png) no-repeat -48px 0;
+                    }
+                }
+            }
+            button {
+                width: 304px;
+                height: 33px;
+                margin: 45px 0 0 20px;
+                background-color: #e4393c;
+                color: #fff;
+                font-size: 20px;
+                border: none;
+            }
+            // 注册
+            .ljzhuce {
+                background: #fcfcfc;
+                border-top: 1px solid #f4f4f4;
+                height: 50px;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                p {
+                    position: absolute;
+                    top: 17px;
+                    right: 20px;
+                    height: 18px;
+                    i {
+                        margin-top: 2px;
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        background: url(../images/pwd-icons-new.png) no-repeat -104px -75px;
+                    }
+                    a {
+                        display: inline-block;
+                        color: #b61d1d;
+                        font-size: 14px;
+                        line-height: 14px;
+                        margin-left: 5px;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 底部
+.dl_bottom_wrap {
+    .dl_bottom {
+        ul {
+            margin: 20px 0 0 70px;
+            width: 100%;
+            overflow: hidden;
+            li {
+                font-size: 12px;
+                float: left;
+                margin: 0 6px;
+            }
+            .shu {
+                margin-top: 3px;
+                width: 1px;
+                height: 12px;
+                background-color: #ccc;
+            }
+        }
+        p {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+}

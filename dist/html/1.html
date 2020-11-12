@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery1.11.js"></script>
+</head>
+
+<body>
+    <script>
+        $(function() {
+            $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php", {
+                pimg: "images/l10.jpg",
+                pname: "商品2",
+                pdesc: "200",
+                uid: 125521,
+            }, data => {
+                console.log(data);
+            })
+        })
+        $(function() {
+            $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php", {
+                pimg: "images/l9.jpg",
+                pname: "商品1",
+                pdesc: "100",
+                uid: 125521,
+            }, data => {
+                console.log(data);
+            })
+        })
+    </script>
+</body>
+
+</html>
